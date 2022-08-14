@@ -1,0 +1,41 @@
+.desktop-nav {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .25rem 1.5rem;
+}
+
+.mobile-nav {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+h1 {
+  color: #3563E9;
+  font-size: 1.75rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .desktop-nav {
+    display: flex;
+    list-style: none;
+    column-gap: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #111111;
+  }
+
+  .desktop-nav li {
+    cursor: pointer;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+}
