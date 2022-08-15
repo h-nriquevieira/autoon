@@ -1,0 +1,57 @@
+.banner {
+    background-color: #3563E9;
+    background-image: url(../../assets/banner-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    color: #fff;
+    margin: 0 auto;
+    padding: 3.5rem 1rem 2rem;
+    max-width: min(1200px, 95%);
+    border-radius: 10px;
+}
+
+.banner--title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.banner--subtitle {
+    font-size: .75rem;
+    max-width: 200px;
+    margin: .35rem 0;
+}
+
+.banner--button {
+    background-color: #5CAFFC;
+    color: white;
+    font-weight: 600;
+    font-size: .875rem;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem .75rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .banner {
+        max-width: 100%;
+        border-radius: 0;
+        background-size: 40%;
+        padding: 3.5rem 0rem 2rem 7rem;
+    }
+
+    .banner--title {
+        font-size: 2rem;
+    }
+
+    .banner--subtitle {
+        font-size: 1rem;
+        max-width: 250px;
+        margin-top: 1rem;
+    }
+
+    .banner-button {
+        font-size: 1rem;
+    }
+}

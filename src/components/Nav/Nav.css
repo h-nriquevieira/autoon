@@ -16,10 +16,15 @@ nav {
   transform: scale(1.5);
 }
 
-h1 {
+.logo {
   color: #3563E9;
   font-size: 1.75rem;
 }
+
+nav .logo,
+  .destop-nav {
+    margin: 0;
+  }
 
 @media only screen and (min-width: 1024px) {
   .desktop-nav {

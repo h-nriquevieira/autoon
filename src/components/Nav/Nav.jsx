@@ -12,7 +12,7 @@ function Nav() {
 
   return (
     <nav>
-      <h1>AutoOn</h1>
+      <h1 className='logo'>AutoOn</h1>
       <ul className="desktop-nav">
         <li>Catálogo</li>
         <li>Sobre</li>
