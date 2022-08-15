@@ -1,10 +1,58 @@
 [
     {
-        "model": "Carro",
-        "make": "Marca",
+        "model": "C3",
+        "make": "Citroën",
         "img": "/car-1.png",
+        "year": "2006",
+        "km": "173.000",
+        "price": "19.900"
+    },
+    {
+        "model": "Uno",
+        "make": "Fiat",
+        "img": "/car-2.png",
+        "year": "2013",
+        "km": "90.000",
+        "price": "27.000"
+    },
+    {
+        "model": "Palio",
+        "make": "Fiat",
+        "img": "/car-3.png",
+        "year": "2015",
+        "km": "54.000",
+        "price": "36.700"
+    },
+    {
+        "model": "Celta",
+        "make": "Chevrolet",
+        "img": "/car-4.png",
+        "year": "2012",
+        "km": "112.500",
+        "price": "23.400"
+    },
+    {
+        "model": "Fox",
+        "make": "Volkswagen",
+        "img": "/car-5.png",
+        "year": "2006",
+        "km": "150.000",
+        "price": "21.000"
+    },
+    {
+        "model": "HB20",
+        "make": "Hyunday",
+        "img": "/car-6.png",
         "year": "2017",
-        "km": "30.000",
+        "km": "37.000",
+        "price": "53.800"
+    },
+    {
+        "model": "Onix",
+        "make": "Chevrolet",
+        "img": "/car-7.png",
+        "year": "2021",
+        "km": "22.300",
         "price": "72.000"
     }
 ]
