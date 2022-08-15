@@ -1,0 +1,17 @@
+.cards-container {
+    background-color: #F6F7F9;
+    padding: 1.5rem;
+}
+
+.cards-container--inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
+.cards-container--title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #90A3BF;
+}

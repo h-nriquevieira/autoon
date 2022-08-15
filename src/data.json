@@ -1,0 +1,10 @@
+[
+    {
+        "model": "Carro",
+        "make": "Marca",
+        "img": "/car-1.png",
+        "year": "2017",
+        "km": "30.000",
+        "price": "72.000"
+    }
+]
