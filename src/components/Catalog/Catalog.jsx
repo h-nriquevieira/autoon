@@ -10,7 +10,7 @@ function Catalog() {
   const filteredData = data.filter(car => {
     let query = filter.toLowerCase()
     let model = car.model.toLowerCase()
-    return model.includes(filter)
+    return model.includes(query)
   })
 
   
