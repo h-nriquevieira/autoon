@@ -24,13 +24,17 @@
 
 .banner--button {
     background-color: #5CAFFC;
-    color: white;
-    font-weight: 600;
-    font-size: .875rem;
     border: none;
     border-radius: 5px;
     padding: .5rem .75rem;
     margin-top: 2rem;
+}
+
+.banner--link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: .875rem;
 }
 
 @media only screen and (min-width: 1024px) {

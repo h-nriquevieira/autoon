@@ -18,7 +18,7 @@ function Card(props) {
               <p className="km--text">{props.info.km}KM</p>
           </div>
           <p className="price">R${props.info.price}</p>
-          <button className="card--button">Saiba mais</button>
+          <button className="card--button"><a className='card--link' href="https://henriquevieira.netlify.app/">Saiba mais</a></button>
       </div>
   );
 }

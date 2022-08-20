@@ -72,6 +72,12 @@
     cursor: pointer;
 }
 
+.card--link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
 p.price,
 .card--button {
     margin-top: .75rem;
