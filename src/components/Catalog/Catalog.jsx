@@ -8,7 +8,8 @@ function Catalog() {
   const [filter, setFilter] = useState('')
 
   const filteredData = data.filter(car => {
-    let model = car.model.toLowerCase();
+    let query = filter.toLowerCase()
+    let model = car.model.toLowerCase()
     return model.includes(filter)
   })
 
