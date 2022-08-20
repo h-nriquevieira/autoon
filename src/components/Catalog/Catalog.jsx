@@ -27,7 +27,13 @@ function Catalog() {
         <Banner />
         <div className="cards-container">
             <p className='cards-container--title'>Confira nosso catálogo</p>
-            <input type="text" placeholder='Pesquisar' value={filter} onChange={(e) => handleChange(e)} />
+            <input 
+              className='cards-container--search' 
+              type="text" 
+              placeholder='Pesquisar' 
+              value={filter} 
+              onChange={(e) => handleChange(e)} 
+            />
             <div className="cards-container--inner">
                 {carNodes}
             </div>

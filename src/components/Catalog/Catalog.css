@@ -15,3 +15,27 @@
     font-weight: 600;
     color: #90A3BF;
 }
+
+.cards-container--search {
+    width: 100%;
+    justify-self: center;
+    border-radius: 5px;
+    border: 1px solid #90A3BF;
+    color: #90A3BF;
+    padding: .15rem .25rem;
+    margin-bottom: 1rem;
+}
+
+.cards-container--search:active {
+    border: 1px solid #3563E9;
+}
+
+.cards-container--search::placeholder {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 800px) {
+    .cards-container--search {
+        max-width: 500px;
+    }
+}
