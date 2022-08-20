@@ -9,6 +9,11 @@ nav {
   padding: .25rem 1.5rem;
 }
 
+.nav--link {
+  color: #111111;
+  text-decoration: none;
+}
+
 .mobile-nav {
   background-color: transparent;
   border: none;

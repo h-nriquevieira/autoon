@@ -14,9 +14,8 @@ function Nav() {
     <nav>
       <h1 className='logo'>AutoOn</h1>
       <ul className="desktop-nav">
-        <li>Catálogo</li>
-        <li>Sobre</li>
-        <li>Contato</li>
+        <li><a className='nav--link' href="">GitHub</a></li>
+        <li><a className='nav--link' href="">Portifólio</a></li>
       </ul>
       <button className='mobile-nav' onClick={toggleSidebar}>
         <img src={hamburgerIcon} alt="" />

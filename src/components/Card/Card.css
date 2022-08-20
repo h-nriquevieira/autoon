@@ -1,6 +1,6 @@
 .card {
     background-color: #fff;
-    max-width: 305px;
+    width: 290px;
     border-radius: 10px;
     display: grid;
     grid-template-areas: 'model model'
@@ -8,7 +8,7 @@
                          'img   img'
                          'year  km'
                          'price btn';
-    padding: 1rem .5rem 1.5rem;
+    padding: 1rem 1.5rem 1.5rem;
 }
 
 .card p {
